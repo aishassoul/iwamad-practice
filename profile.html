@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisha Kuantay — Profile Card</title>
+    <meta
+        name="description"
+        content="Aisha Kuantay's responsive profile card for Week 02 web development practice."
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1 class="text-3xl font-bold mt-0 mb-2">My Profile</h1>
+        <p>Getting to know me</p>
+    </header>
+
+    <main>
+        <section
+           class="profile-card p-8 rounded-2xl"
+           aria-labelledby="profile-name">
+
+            <div class="profile-content">
+
+                <img
+                    class="profile-photo w-44 h-44 rounded-full object-cover"
+                    src="photo.jpg"
+                    alt="Photo of Aisha Kuantay"
+                >
+
+                <div class="profile-info">
+                    <h2 id="profile-name">Aisha Kuantay</h2>
+
+                    <p class="leading-relaxed mb-5">
+                        I am a third-year IT Management student who enjoys
+                        learning about technology, business, and creative
+                        digital projects. I am always curious to learn new
+                        skills and turn my ideas into something useful.
+                    </p>
+
+                    <div class="profile-links">
+                        <a href="mailto:aishakuantaikyzy@gmail.com">
+                            Email
+                        </a>
+
+                        <a
+                            href="https://github.com/aishassoul"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </div>
+
+                    <button id="likeButton" type="button">
+                        ♡ Like
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aisha Kuantay</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
