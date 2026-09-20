@@ -1,0 +1,24 @@
+{
+  "name": "iwamad-pracice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  "dev": "vite"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishassoul/iwamad-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aishassoul/iwamad-practice/issues"
+  },
+  "homepage": "https://github.com/aishassoul/iwamad-practice#readme",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
