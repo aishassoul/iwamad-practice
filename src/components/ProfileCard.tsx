@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import LikeButton from './LikeButton'
 
 type ProfileLink = {
     id: number
@@ -30,7 +30,6 @@ function ProfileLinkItem({ link }: ProfileLinkItemProps) {
 }
 
 function ProfileCard({ name, bio, photo, links }: ProfileCardProps) {
-    const [liked, setLiked] = useState(false)
 
     return (
         <section
@@ -65,14 +64,7 @@ function ProfileCard({ name, bio, photo, links }: ProfileCardProps) {
                         )}
                     </div>
 
-                    <button
-                        id="likeButton"
-                        type="button"
-                        className={liked ? 'liked' : ''}
-                        onClick={() => setLiked(!liked)}
-                    >
-                        {liked ? '♥ Liked' : '♡ Like'}
-                    </button>
+                    <LikeButton />
                 </div>
 
             </div>
