@@ -97,6 +97,11 @@ main {
     background-color: #ead8c4;
 }
 
+.profile-links a.active {
+    background-color: #6f4e37;
+    color: white;
+}
+
 #likeButton {
     padding: 10px 18px;
     border: none;
