@@ -154,3 +154,63 @@ main {
     background-color: #a66a6a;
     transform: scale(1.05);
 }
+
+
+/* Week 5: responsive header */
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .header-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .header-brand h1 {
+    margin: 0;
+  }
+  
+  .header-brand p {
+    margin: 0;
+  }
+  
+  .site-logo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  
+  .header-likes {
+    margin: 0;
+  }
+  
+  .site-header .profile-links {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 640px) {
+    .site-header {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .header-brand {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .site-header .profile-links {
+      justify-content: flex-end;
+    }
+  }
+  

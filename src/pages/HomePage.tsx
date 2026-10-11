@@ -19,7 +19,7 @@ function HomePage() {
         <main>
             <ProfileCard
                 name="Aisha Kuantay"
-                bio="I am a second-year IT Management student who enjoys learning about technology, business, and creative digital projects."
+                bio="I am a third-year IT Management student who enjoys learning about technology, business, and creative digital projects."
                 photo={photo}
                 links={profileLinks}
             />
